@@ -13,7 +13,7 @@ def to_usd(my_price):
     This is a docstring. I tells us what what this function is about
     What its responsibilities are 
     what the parameters are about
-    invoke like this: to_usd(9.999)
+    invoke like this: to_usd($9.999)
     """
     return '${:,.2f}'.format(my_price)
 
