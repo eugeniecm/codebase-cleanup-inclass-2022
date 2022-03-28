@@ -46,6 +46,7 @@ Run the game:
 python app/game.py
 ```
 
+<<<<<<< Updated upstream
 run the stock report
 ```sh
 python -m app/stock
@@ -55,3 +56,7 @@ run the crypto report:
 ```sh
 python -m app/crypto
 ````
+=======
+run the stocks report 
+```sh
+>>>>>>> Stashed changes
