@@ -1,4 +1,10 @@
+
+
+
+
 from random import choice
+
+
 
 def determine_winner(user_choice, computer_choice):
     #return "paper"
@@ -24,13 +30,20 @@ def determine_winner(user_choice, computer_choice):
     #return "OOPS"
 
 
-#this is the updated code
-if __name__ == " __main__":
+
+
+if __name__ == "__main__":
+
+
+
+
+
     valid_selections = ["rock", "paper", "scissors"] # only have to update in one place
 
     #
     # USER SELECTION
     #
+
     u = input("Please choose one of 'Rock', 'Paper', or 'Scissors': ").lower()
     print("USER CHOICE:", u)
     if u not in valid_selections:
