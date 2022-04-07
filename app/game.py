@@ -7,6 +7,12 @@ from random import choice
 
 
 def determine_winner(user_choice, computer_choice):
+    """
+    the parameter is a string for the user will be rock, paper, and scissors
+    the user will have to chose from the parameters above
+    after the user choice, it will determine the computer choise
+    and then it will return the game winner
+    """
     #return "paper"
     winners = {
         "rock": {
