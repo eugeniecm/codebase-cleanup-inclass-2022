@@ -20,9 +20,12 @@ def fetch_crypto_data(symbol):
 
 def fetch_stocks_data(symbol):
     url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={symbol}&apikey={ALPHAVANTAGE_API_KEY}&datatype=csv"
-    # make a request
-    # return some data
-    return "TODO"
+    df = read_csv(url)
+    latest = df.iloc[0]
+
+    print(symbol)
+    print(latest["timestamp"])
+    print(to_usd(latest["close"]))
 
 
 def fetch_unemployment_data():
